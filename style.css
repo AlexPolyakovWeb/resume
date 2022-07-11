@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+  letter-spacing: 0.1;
+  color: #121212;
+  background: #f1f1f1;
+  height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background: #d3d3d3;
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  background: #d3d3d3;
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 1.6em;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+p,
+ul,
+form,
+table {
+  font-size: 20px;
+  line-height: 1.4em;
+  padding-bottom: 15px;
+}
+
+ul,
+table {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.card-1,
+.card-3,
+.card-4,
+.card-5 {
+  border: none;
+  border-radius: 20px;
+  padding: 15px 15px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.card-1 {
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: min-content;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.card-2 {
+  background: rosybrown;
+  width: 100%;
+  min-height: min-content;
+  margin-top: 40px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.card-3 {
+  background: green;
+  width: 100%;
+  min-height: min-content;
+  margin-top: 40px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+.card-4 {
+  background: yellow;
+  width: 100%;
+  min-height: min-content;
+  margin-top: 40px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.card-4 h2 {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.card-5 {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border: none;
+}
+
+table td:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+button {
+  padding: 20px 35px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  width: max-content;
+  height: max-content;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #f1f1f1;
+  color: #121212;
+  outline: 1px solid #121212;
+}
+
+a {
+  text-decoration: none;
+  border-right: 1px solid #121212;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.input-box {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.box-email {
+  margin-left: auto;
+}
+
+.input-box-textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-value-textarea {
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #121212;
+}
+
+.input-value {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #121212;
+  padding: 10px 0;
+}
+
+.btn-submit {
+  margin-right: 30px;
+}
+@media (max-width:500px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
